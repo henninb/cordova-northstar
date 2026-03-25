@@ -1,0 +1,34 @@
+{
+  "name": "polaris",
+  "displayName": "Polaris",
+  "version": "1.0.0",
+  "description": "Weather, sports scores, and astronomy for the Twin Cities",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx serve www",
+    "build:android": "cordova build android",
+    "run:android": "cordova run android",
+    "build:ios": "cordova build ios",
+    "run:ios": "cordova run ios"
+  },
+  "cordova": {
+    "plugins": {
+      "cordova-plugin-network-information": {},
+      "cordova-plugin-statusbar": {}
+    },
+    "platforms": [
+      "android",
+      "ios"
+    ]
+  },
+  "devDependencies": {
+    "cordova": "^12.0.0",
+    "cordova-android": "^15.0.0",
+    "cordova-plugin-network-information": "^3.0.0",
+    "cordova-plugin-statusbar": "^4.0.0",
+    "serve": "^14.0.0"
+  },
+  "dependencies": {
+    "astronomy-engine": "^2.1.19"
+  }
+}

@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.henninb.polaris" version="1.0.0"
+  xmlns="http://www.w3.org/ns/widgets"
+  xmlns:cdv="http://cordova.apache.org/ns/1.0">
+  <name>Polaris</name>
+  <description>Weather, sports scores, and astronomy for the Twin Cities</description>
+  <author email="henninb@example.com" href="">henninb</author>
+  <content src="index.html" />
+  <access origin="https://api.open-meteo.com" />
+  <access origin="https://site.api.espn.com" />
+  <allow-navigation href="*" />
+  <preference name="DisallowOverscroll" value="true" />
+  <preference name="android-minSdkVersion" value="22" />
+  <preference name="BackupWebStorage" value="none" />
+  <preference name="SplashScreen" value="screen" />
+  <preference name="SplashScreenDelay" value="3000" />
+</widget>
