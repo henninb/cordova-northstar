@@ -26,5 +26,5 @@ echo "Installing $APK..."
 adb -s "$SERIAL" install -r "$APK"
 
 echo "Launching app..."
-adb -s "$SERIAL" shell am start -n com.henninb.weather/com.henninb.weather.MainActivity
+adb -s "$SERIAL" shell am start -n com.henninb.polaris/com.henninb.polaris.MainActivity
 echo "Done."

@@ -6,5 +6,6 @@ if ! command -v cordova > /dev/null 2>&1; then
   npm install -g cordova
 fi
 
-cordova platform add android 2>/dev/null || true
+cordova platform rm android 2>/dev/null || true
+cordova platform add android
 cordova run android
